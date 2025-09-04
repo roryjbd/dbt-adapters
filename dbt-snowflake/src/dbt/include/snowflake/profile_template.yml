@@ -20,6 +20,14 @@ prompts:
       authenticator:
         hint: "'externalbrowser' or a valid Okta URL"
         default: 'externalbrowser'
+    workload_identity:
+      authenticator:
+        hint: "'workload_identity'"
+        default: 'workload_identity'
+      workload_identity_provider:
+        hint: "'aws' or 'oidc'"
+      workload_identity_entra_resource:
+        hint: 'The Azure Entra resource (optional)'
   role:
     hint: 'dev role'
   warehouse:
