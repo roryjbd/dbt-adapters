@@ -21,8 +21,7 @@ prompts:
         hint: "'externalbrowser' or a valid Okta URL"
         default: 'externalbrowser'
     workload_identity:
-      authenticator:
-        default: 'workload_identity'
+      authenticator: workload_identity
       workload_identity_provider:
         hint: Must be one of the following - [OIDC, AWS, AZURE, GCP]
   role:
